@@ -1,0 +1,11 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    padding: 10px;
+
+}
+.dialog {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}

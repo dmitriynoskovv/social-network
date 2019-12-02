@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac5407aa-7472-4ea3-a4fb-84ae4727c580" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="my-first-react-progect" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RnKvy69IDulBuWzF16NqEZEAM9" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="CONST" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dialogs" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\react\my pet\my-first-react-progect\src\components\Dialogs" />
+      <recent name="D:\react\my pet\my-first-react-progect\src\components\Profile\MyPosts" />
+      <recent name="D:\react\my pet\my-first-react-progect\src\components\Profile\MyPosts\Post" />
+      <recent name="D:\react\my pet\my-first-react-progect\src\redux" />
+      <recent name="D:\react\my pet\my-first-react-progect\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac5407aa-7472-4ea3-a4fb-84ae4727c580" name="Default Changelist" comment="" />
+      <created>1570297654666</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570297654666</updated>
+      <workItem from="1570297661135" duration="874000" />
+      <workItem from="1570346514448" duration="14700000" />
+      <workItem from="1570433221629" duration="12323000" />
+      <workItem from="1570519319489" duration="3160000" />
+      <workItem from="1570603293545" duration="1141000" />
+      <workItem from="1570634467371" duration="8471000" />
+      <workItem from="1570697447981" duration="16361000" />
+      <workItem from="1570887488342" duration="6570000" />
+      <workItem from="1571513227746" duration="84000" />
+      <workItem from="1572019488362" duration="712000" />
+      <workItem from="1572171623683" duration="15909000" />
+      <workItem from="1572289676291" duration="2337000" />
+      <workItem from="1572379492344" duration="1440000" />
+      <workItem from="1572465364254" duration="1200000" />
+      <workItem from="1572550282364" duration="2781000" />
+      <workItem from="1572638363328" duration="2863000" />
+      <workItem from="1572805638860" duration="4875000" />
+      <workItem from="1572981048618" duration="2556000" />
+      <workItem from="1572987728783" duration="950000" />
+      <workItem from="1573066334095" duration="2679000" />
+      <workItem from="1573153659789" duration="1612000" />
+      <workItem from="1573368677055" duration="12048000" />
+      <workItem from="1573500575391" duration="2366000" />
+      <workItem from="1573589991863" duration="1673000" />
+      <workItem from="1573672484972" duration="2223000" />
+      <workItem from="1573760202417" duration="601000" />
+      <workItem from="1573846374724" duration="2969000" />
+      <workItem from="1574198442738" duration="621000" />
+      <workItem from="1574280864707" duration="2088000" />
+      <workItem from="1574365509413" duration="2588000" />
+      <workItem from="1574449109251" duration="5801000" />
+      <workItem from="1574584189668" duration="1853000" />
+      <workItem from="1574589464632" duration="2728000" />
+      <workItem from="1574612070145" duration="9619000" />
+      <workItem from="1574625937476" duration="3277000" />
+      <workItem from="1574713936465" duration="1995000" />
+      <workItem from="1574798758935" duration="3240000" />
+      <workItem from="1574968158196" duration="5522000" />
+      <workItem from="1575105711290" duration="1179000" />
+      <workItem from="1575191387023" duration="11116000" />
+      <workItem from="1575208068025" duration="1978000" />
+      <workItem from="1575220794862" duration="6884000" />
+      <workItem from="1575275612864" duration="833000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

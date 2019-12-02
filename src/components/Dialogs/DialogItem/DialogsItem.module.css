@@ -1,0 +1,15 @@
+.dialog {
+    text-decoration: none;
+    color: #89ff8c;
+    text-align:  left;
+    margin-top: 30px;
+}
+.dialog img {
+    width: 60px;
+
+}
+
+a.activeLink {
+    color: gold;
+}
+
