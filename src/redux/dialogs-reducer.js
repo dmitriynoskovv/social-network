@@ -21,20 +21,31 @@ const dialogsReducer = (state = initialState1, action) => {
 
     switch (action.type) {
         case UPDATE_NEW_MESSAGE_BODY:
-            state.newMessageBody = action.body;
-            return state;
+
+            return {
+                ...state,
+                newMessageBody: action.body,            //создает в скопированном массиве
+            };
+
         case SEND_MESSAGE:
+
             let body = state.newMessageBody;
-            state.newMessageBody = "";
-            state.messagesData.push({id: 6, message: body});
-            return state;
+
+            return {
+                ...state,
+                messagesData: [...state.messagesData, {id: 6, message: body}],      //спред оператор создает копию примитивов.
+                // Что бы скопировать массив на более глубоком уровне, отдельные объекты, массивы копируются отдельно.
+                // Вместо Push, новый элемент дописывается справа (слева, если нужно)
+                newMessageBody: "",
+            };
+
         default:
             return state;
-         }
+    }
 };
 
 
-export const sendMessageCreator = () => ({    type: SEND_MESSAGE    });
+export const sendMessageCreator = () => ({type: SEND_MESSAGE});
 export const updateNewMessageBodyCreator = (body) => {
     return {
         type: UPDATE_NEW_MESSAGE_BODY,

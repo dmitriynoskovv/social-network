@@ -15,18 +15,28 @@ let initialState =  {
 const profileReducer = (state = initialState, action) => {
 
     switch(action.type) {
-        case ADD_POST:
+        case ADD_POST: {
             let newPost = {
                 id: 100,
                 message: state.newPostText,
                 likeCount: 65
             };
-            state.postsData.push(newPost);
-            state.newPostText = "";
-            return state;
-        case UPDATE_NEW_POST_TEXT:
-            state.newPostText = action.newText;
-            return state;
+           return {
+                ...state,
+                postsData: [...state.postsData, newPost],
+                newPostText: "",
+            };//делается копия объекта state для того, что бы была возможность его перерисовать
+            // (стейт который остается неизмененным
+            // встроенной в функцию connect не перерисовывается (в connect входит функция subscribe(паттерн observer))).
+
+        }
+        case UPDATE_NEW_POST_TEXT: {
+            return {
+                ...state,
+                newPostText: action.newText,
+            };
+
+        }
         default:
             return state;
     }

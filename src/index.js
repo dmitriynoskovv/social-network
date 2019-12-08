@@ -5,7 +5,8 @@ import store from "./redux/redux-store";
 import ReactDOM from 'react-dom';
 import App from './App';
 import {BrowserRouter} from "react-router-dom";
-import StoreContext, {Provider} from "./StoreContext";
+import Provider from "react-redux/es/components/Provider";
+
 
 
 let rerenderEntireTree = (state) => {
@@ -19,10 +20,6 @@ let rerenderEntireTree = (state) => {
 }
 
 rerenderEntireTree();
-
-store.subscribe(() => {
-    rerenderEntireTree();
-});
 
 // eslint-disable-next-line no-undef
 // If you want your app to work offline and load faster, you can change
