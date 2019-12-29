@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac5407aa-7472-4ea3-a4fb-84ae4727c580" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Users/Users(old).jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Users/UsersClass.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Common/Preloader/Preloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Users/Users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersClass.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/users.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/users.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +155,13 @@
       <workItem from="1576912453729" duration="2907000" />
       <workItem from="1577209396500" duration="4886000" />
       <workItem from="1577302590616" duration="2823000" />
-      <workItem from="1577387823897" duration="1771000" />
+      <workItem from="1577387823897" duration="4780000" />
+      <workItem from="1577529290354" duration="599000" />
+      <workItem from="1577534894234" duration="503000" />
+      <workItem from="1577536434641" duration="126000" />
+      <workItem from="1577542713498" duration="3491000" />
+      <workItem from="1577555117464" duration="4540000" />
+      <workItem from="1577636928791" duration="10417000" />
     </task>
     <task id="LOCAL-00001" summary="First commit on git.">
       <created>1575828617334</created>
@@ -168,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575828617335</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First commit on git.">
+      <created>1577390211410</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577390211410</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
