@@ -18,21 +18,19 @@ export const usersAPI = {
     },
 
     follow(userId) {
-        return instence.post(`https://social-network.samuraijs.com/api/1.0/follow/${userId}`)
+        return instence.post(`follow/${userId}`)
     },
-
     unfollow(userId) {
-        return instence.delete(`https://social-network.samuraijs.com/api/1.0/follow/${userId}`)
+        return instence.delete(`follow/${userId}`)
+    },
+    getProfile(userId) {
+        return instence.get(`profile/` + userId);
+
     }
-}
+};
 
-
-
-export const usersAPI2 = {
-    getUsers2 () {
-        return instence.get(`auth/me`)
-            .then(response => {
-                return response.data;
-            });
+export const authAPI = {
+    me () {
+        return instence.get(`auth/me`);
     }
 }
