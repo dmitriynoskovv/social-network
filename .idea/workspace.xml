@@ -1,22 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac5407aa-7472-4ea3-a4fb-84ae4727c580" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Login/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hoc/withAuthRedirect.js" afterDir="false" />
+    <list default="true" id="93bf0075-06da-4fe5-8f3d-414aa8f19399" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Common/FormsControls/FormControls.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Common/FormsControls/FormsControls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/AddMessageForm/AddMessageForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/users-selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/validators/validators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/API/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsConteiner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsConteiner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileConteiner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileConteiner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsConteiner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsConteiner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileConteiner.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hoc/withAuthRedirect.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/profil-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profil-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,47 +38,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="my-first-react-progect" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1RnKvy69IDulBuWzF16NqEZEAM9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1X56LcQgT5hpDuBvPEZZEolI7e2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="js.buildTools.gulp.gulp_package_dir" value="" />
-    <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Header" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
-    <property name="nodejs_interpreter_path" value="node" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\react\my pet\my-first-react-progect\src\components\Header" />
-      <recent name="D:\react\my pet\my-first-react-progect\src\components\Users" />
-      <recent name="D:\react\my pet\my-first-react-progect\src\components\Dialogs" />
-      <recent name="D:\react\my pet\my-first-react-progect\src\components\Profile\MyPosts" />
-      <recent name="D:\react\my pet\my-first-react-progect\src\components\Profile\MyPosts\Post" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -78,183 +66,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.Profile.jsx">
-    <configuration name="Profile.jsx" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="Profile.jsx" working-dir="$PROJECT_DIR$/src/components/Profile">
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="test" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.Profile.jsx" />
-        <item itemvalue="npm.start" />
-        <item itemvalue="npm.test" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ac5407aa-7472-4ea3-a4fb-84ae4727c580" name="Default Changelist" comment="" />
-      <created>1570297654666</created>
+      <changelist id="93bf0075-06da-4fe5-8f3d-414aa8f19399" name="Default Changelist" comment="" />
+      <created>1580323553985</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1570297654666</updated>
-      <workItem from="1570297661135" duration="874000" />
-      <workItem from="1570346514448" duration="14700000" />
-      <workItem from="1570433221629" duration="12323000" />
-      <workItem from="1570519319489" duration="3160000" />
-      <workItem from="1570603293545" duration="1141000" />
-      <workItem from="1570634467371" duration="8471000" />
-      <workItem from="1570697447981" duration="16361000" />
-      <workItem from="1570887488342" duration="6570000" />
-      <workItem from="1571513227746" duration="84000" />
-      <workItem from="1572019488362" duration="712000" />
-      <workItem from="1572171623683" duration="15909000" />
-      <workItem from="1572289676291" duration="2337000" />
-      <workItem from="1572379492344" duration="1440000" />
-      <workItem from="1572465364254" duration="1200000" />
-      <workItem from="1572550282364" duration="2781000" />
-      <workItem from="1572638363328" duration="2863000" />
-      <workItem from="1572805638860" duration="4875000" />
-      <workItem from="1572981048618" duration="2556000" />
-      <workItem from="1572987728783" duration="950000" />
-      <workItem from="1573066334095" duration="2679000" />
-      <workItem from="1573153659789" duration="1612000" />
-      <workItem from="1573368677055" duration="12048000" />
-      <workItem from="1573500575391" duration="2366000" />
-      <workItem from="1573589991863" duration="1673000" />
-      <workItem from="1573672484972" duration="2223000" />
-      <workItem from="1573760202417" duration="601000" />
-      <workItem from="1573846374724" duration="2969000" />
-      <workItem from="1574198442738" duration="621000" />
-      <workItem from="1574280864707" duration="2088000" />
-      <workItem from="1574365509413" duration="2588000" />
-      <workItem from="1574449109251" duration="5801000" />
-      <workItem from="1574584189668" duration="1853000" />
-      <workItem from="1574589464632" duration="2728000" />
-      <workItem from="1574612070145" duration="9619000" />
-      <workItem from="1574625937476" duration="3277000" />
-      <workItem from="1574713936465" duration="1995000" />
-      <workItem from="1574798758935" duration="3240000" />
-      <workItem from="1574968158196" duration="5522000" />
-      <workItem from="1575105711290" duration="1179000" />
-      <workItem from="1575191387023" duration="11116000" />
-      <workItem from="1575208068025" duration="1978000" />
-      <workItem from="1575220794862" duration="6884000" />
-      <workItem from="1575275612864" duration="7045000" />
-      <workItem from="1575315953593" duration="1047000" />
-      <workItem from="1575392522253" duration="620000" />
-      <workItem from="1575399754665" duration="3936000" />
-      <workItem from="1575486976467" duration="4400000" />
-      <workItem from="1575572003120" duration="4732000" />
-      <workItem from="1575657251877" duration="4116000" />
-      <workItem from="1575699614292" duration="3691000" />
-      <workItem from="1575797745736" duration="12975000" />
-      <workItem from="1575815048147" duration="8633000" />
-      <workItem from="1575923098032" duration="791000" />
-      <workItem from="1576003642327" duration="207000" />
-      <workItem from="1576183576069" duration="697000" />
-      <workItem from="1576529147991" duration="1477000" />
-      <workItem from="1576698093809" duration="3302000" />
-      <workItem from="1576781480558" duration="4282000" />
-      <workItem from="1576912453729" duration="2907000" />
-      <workItem from="1577209396500" duration="4886000" />
-      <workItem from="1577302590616" duration="2823000" />
-      <workItem from="1577387823897" duration="4780000" />
-      <workItem from="1577529290354" duration="599000" />
-      <workItem from="1577534894234" duration="503000" />
-      <workItem from="1577536434641" duration="126000" />
-      <workItem from="1577542713498" duration="3491000" />
-      <workItem from="1577555117464" duration="4540000" />
-      <workItem from="1577636928791" duration="11040000" />
-      <workItem from="1577710459740" duration="433000" />
-      <workItem from="1577712684067" duration="4786000" />
-      <workItem from="1577727225437" duration="11749000" />
-      <workItem from="1577795634834" duration="6636000" />
-      <workItem from="1577891019181" duration="883000" />
-      <workItem from="1577892269213" duration="5890000" />
-      <workItem from="1577903311521" duration="1071000" />
-      <workItem from="1577904507571" duration="1309000" />
-      <workItem from="1577906171897" duration="1413000" />
-      <workItem from="1577960626100" duration="97000" />
-      <workItem from="1577964487774" duration="6526000" />
-      <workItem from="1577982552304" duration="9020000" />
-      <workItem from="1578053319031" duration="12037000" />
-      <workItem from="1578078830839" duration="4074000" />
-      <workItem from="1578140737202" duration="4003000" />
-      <workItem from="1578236291260" duration="1311000" />
-      <workItem from="1578306935771" duration="11023000" />
-      <workItem from="1578424098940" duration="2921000" />
-      <workItem from="1578510303037" duration="4085000" />
-      <workItem from="1578645515317" duration="2296000" />
-      <workItem from="1578652306357" duration="1743000" />
+      <updated>1580323553985</updated>
+      <workItem from="1580323558548" duration="4432000" />
+      <workItem from="1580330345714" duration="56000" />
+      <workItem from="1580499222929" duration="3912000" />
+      <workItem from="1580577421768" duration="5337000" />
     </task>
-    <task id="LOCAL-00001" summary="First commit on git.">
-      <created>1575828617334</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1575828617335</updated>
-    </task>
-    <task id="LOCAL-00002" summary="First commit on git.">
-      <created>1577390211410</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1577390211410</updated>
-    </task>
-    <task id="LOCAL-00003" summary="First commit on git.">
-      <created>1577654195814</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1577654195814</updated>
-    </task>
-    <task id="LOCAL-00004" summary="First commit on git.">
-      <created>1577742568996</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1577742568996</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Thunk is so HARD!">
-      <created>1578079011738</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1578079011738</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,10 +98,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="First commit on git." />
-    <MESSAGE value="Thunk is so HARD!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thunk is so HARD!" />
   </component>
 </project>
