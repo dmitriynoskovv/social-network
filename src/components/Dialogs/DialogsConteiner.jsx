@@ -1,9 +1,9 @@
 import React from "react";
 import {sendMessageCreator} from "../../redux/dialogs-reducer";
 import Dialogs from "./Dialogs";
-import connect from "react-redux/es/connect/connect";
 import {withAuthRedirect} from "../../hoc/withAuthRedirect";
 import {compose} from "redux";
+import {connect} from "react-redux";
 
 
 /*const DialogsContainer = (props) => {
