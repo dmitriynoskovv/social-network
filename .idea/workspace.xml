@@ -2,18 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93bf0075-06da-4fe5-8f3d-414aa8f19399" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/profil-reducer.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Common/Paginator/Pagenator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Common/Paginator/Paginator.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileDataForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Users/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/withSuspense.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/objects-helpers.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsConteiner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsConteiner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/API/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Common/FormsControls/FormsControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/FormsControls/FormsControls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsConteiner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsConteiner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsConteiner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/users.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/users.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/profil-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profil-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="my-first-react-progect" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,7 +50,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/hoc" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -35,9 +62,14 @@
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\react\my pet\my-first-react-progect\src\components\Common\Paginator" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\react\my pet\my-first-react-progect\src\redux" />
+      <recent name="D:\react\my pet\my-first-react-progect\src\hoc" />
       <recent name="D:\react\my pet\my-first-react-progect\src\components\Profile\ProfileInfo" />
+      <recent name="D:\react\my pet\my-first-react-progect\src\components\Users" />
+      <recent name="D:\react\my pet\my-first-react-progect\src\redux" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -52,64 +84,56 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.after deleting length shouldn't be decrement if id is incorrect">
-    <configuration name="after deleting length of message should be decrement" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.ProfileStatus component.callback should be called">
+    <configuration name="ProfileStatus component.callback should be called" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/redux/profil-reducer.test.js" />
+      <test-file value="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.jsx" />
       <test-names>
-        <test-name value="after deleting length of message should be decrement" />
+        <test-name value="ProfileStatus component" />
+        <test-name value="callback should be called" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="after deleting length shouldn't be decrement if id is incorrect" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/redux/profil-reducer.test.js" />
-      <test-names>
-        <test-name value="after deleting length shouldn't be decrement if id is incorrect" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="length of posts should be incremented" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/redux/profil-reducer.test.js" />
-      <test-names>
-        <test-name value="length of posts should be incremented" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="message of new post should be helloHI" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/redux/profil-reducer.test.js" />
-      <test-names>
-        <test-name value="message of new post should be helloHI" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="test" />
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="predeploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="predeploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -117,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.after deleting length shouldn't be decrement if id is incorrect" />
-        <item itemvalue="Jest.after deleting length of message should be decrement" />
-        <item itemvalue="Jest.length of posts should be incremented" />
-        <item itemvalue="Jest.message of new post should be helloHI" />
-        <item itemvalue="npm.test" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.predeploy" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="Jest.ProfileStatus component.callback should be called" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +170,28 @@
       <workItem from="1580929562080" duration="2105000" />
       <workItem from="1581013168812" duration="5942000" />
       <workItem from="1581182532746" duration="4304000" />
-      <workItem from="1581230893585" duration="17660000" />
+      <workItem from="1581230893585" duration="19573000" />
+      <workItem from="1581359118383" duration="3461000" />
+      <workItem from="1581449744214" duration="630000" />
+      <workItem from="1581620819694" duration="3139000" />
+      <workItem from="1581789467705" duration="9321000" />
+      <workItem from="1581834539278" duration="17190000" />
+      <workItem from="1581873251063" duration="6159000" />
+      <workItem from="1582051338085" duration="2971000" />
+      <workItem from="1582135711865" duration="597000" />
+      <workItem from="1582212929528" duration="2804000" />
+      <workItem from="1582278496799" duration="4950000" />
+      <workItem from="1582568223197" duration="4275000" />
+      <workItem from="1582656051368" duration="2761000" />
+      <workItem from="1582829261940" duration="335000" />
+      <workItem from="1582915873974" duration="2820000" />
+      <workItem from="1582992628121" duration="9270000" />
+      <workItem from="1583051857354" duration="598000" />
+      <workItem from="1583069523049" duration="8349000" />
+      <workItem from="1583169662373" duration="11533000" />
+      <workItem from="1583252238995" duration="593000" />
+      <workItem from="1583350294031" duration="2457000" />
+      <workItem from="1583435524681" duration="621000" />
     </task>
     <task id="LOCAL-00001" summary="local state&#10;High Order Component&#10;compose&#10;redux-form&#10;login, logout&#10;initialize &#10;reselect">
       <created>1580594549366</created>
@@ -162,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581241393285</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tdd&#10;tests">
+      <created>1581279626488</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581279626488</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +236,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="local state&#10;High Order Component&#10;compose&#10;redux-form&#10;login, logout&#10;initialize &#10;reselect" />
     <MESSAGE value="hook&#10;useEffect" />
-    <option name="LAST_COMMIT_MESSAGE" value="hook&#10;useEffect" />
+    <MESSAGE value="tdd&#10;tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="tdd&#10;tests" />
   </component>
 </project>
