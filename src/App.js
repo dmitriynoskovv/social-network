@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import './App.css';
 import Nav from './components/Navbar/Navbar';
-import {BrowserRouter, HashRouter, Route, withRouter} from "react-router-dom";
+import {HashRouter, Redirect, Route, Switch, withRouter} from "react-router-dom";
 import UsersContainer from "./components/Users/UsersContainer";
 import HeaderContainer from "./components/Header/HeaderContainer";
 import LoginPage from "./components/Login/login"            // Если импорт в файле производится по дефолту, импортируемой функции можно задать произвольное имя
@@ -11,8 +11,6 @@ import {initializeApp} from "./redux/app-reducer";
 import Preloader from "./components/Common/Preloader/Preloader";
 import store from "./redux/redux-store";
 import {withSuspense} from "./hoc/withSuspense";
-//import DialogsContainer from "./components/Dialogs/DialogsContainer";
-//import ProfileContainer from "./components/Profile/ProfileConteiner";
 
 const DialogsContainer = React.lazy(() => import("./components/Dialogs/DialogsContainer"))      //позволяет подгружать страницы по мере необходимости, после обращения к ней пользователя
 const ProfileContainer = React.lazy(() => import("./components/Profile/ProfileContainer"))
@@ -21,34 +19,41 @@ const ProfileContainer = React.lazy(() => import("./components/Profile/ProfileCo
 class App extends Component {
 
     componentDidMount() {
-
         this.props.initializeApp();
-
     }
 
     render() {
-        if(!this.props.initialized) {
-            return <Preloader />
+        if (!this.props.initialized) {
+            return <Preloader/>
         }
 
         return (
             <div className='app-wrapper'>
-                <HeaderContainer/>
-                <Nav/>
-                <div className='app-wrapper-content'>
-                    <Route path='/dialogs'
-                           render={withSuspense(DialogsContainer)}/>
-                    <Route path='/profile/:userId?'
-                           render={withSuspense(ProfileContainer)}/>
-                    <Route path="/users"
-                           render={() => <UsersContainer/>}/>
-                    <Route path="/login"
-                           render={() => <LoginPage/>}/>
-                    <Route path="/news"/>
-                    <Route path="/music"/>
-                    <Route path="/settings"/>
-                    <Route path="/friends"/>
-                </div>
+
+                    <HeaderContainer/>
+                    <Nav/>
+                    <div className='app-wrapper-content'>
+                        <Switch>
+                        <Route exact path="/"
+                               render={() => <Redirect to={"/profile"}/>}/>
+
+                        <Route path='/dialogs'
+                               render={withSuspense(DialogsContainer)}/>
+                        <Route path='/profile/:userId?'
+                               render={withSuspense(ProfileContainer)}/>
+                        <Route path="/users"
+                               render={() => <UsersContainer/>}/>
+                        <Route path="/login"
+                               render={() => <LoginPage/>}/>
+                        <Route path="*"
+                               render={() => <div>404 NOT FOUND</div>}/>
+                        <Route path="/news"/>
+                        <Route path="/music"/>
+                        <Route path="/settings"/>
+                        <Route path="/friends"/>
+                        </Switch>
+                    </div>
+
             </div>
         );
     }
@@ -64,7 +69,7 @@ let AppContainer = compose(
     connect(mapStateToProps, {initializeApp}))(App);
 
 const MyPetJSApp = (props) => {
-    return <HashRouter >
+    return <HashRouter>
         <Provider store={store}>
             <AppContainer/>
         </Provider>

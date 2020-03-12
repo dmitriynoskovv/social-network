@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="93bf0075-06da-4fe5-8f3d-414aa8f19399" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +33,7 @@
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="ts.external.directory.path" value="D:\react\my pet\my-first-react-progect\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -165,7 +166,11 @@
       <workItem from="1583252238995" duration="593000" />
       <workItem from="1583350294031" duration="2457000" />
       <workItem from="1583435524681" duration="2260000" />
-      <workItem from="1583508193717" duration="8406000" />
+      <workItem from="1583508193717" duration="9036000" />
+      <workItem from="1583596631089" duration="2558000" />
+      <workItem from="1583775934762" duration="7125000" />
+      <workItem from="1583868488221" duration="1500000" />
+      <workItem from="1583955824910" duration="2690000" />
     </task>
     <task id="LOCAL-00001" summary="local state&#10;High Order Component&#10;compose&#10;redux-form&#10;login, logout&#10;initialize &#10;reselect">
       <created>1580594549366</created>
@@ -195,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583438582129</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="tdd&#10;tests">
+      <created>1583528939879</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583528939879</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

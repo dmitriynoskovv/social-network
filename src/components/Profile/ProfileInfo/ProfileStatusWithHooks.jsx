@@ -1,6 +1,4 @@
 import React, {useEffect, useState} from 'react';
-import s from "./ProfileInfo.module.css";
-
 
 
 const ProfileStatusWithHooks = (props) => {
@@ -12,7 +10,8 @@ const ProfileStatusWithHooks = (props) => {
     let [editMode, setEditMode] = useState(false );
     let [status, setStatus] = useState(props.status );
 
-    useEffect( () => {          // !!! Функция, которая выполнится после того, как произойдет отрисовка. Используется для того, что бы совершать дополнительные отрисовки, уже после того, как основной рендер произошел
+    useEffect( () => {
+        // !!! Функция, которая выполнится после того, как произойдет отрисовка. Используется для того, что бы совершать дополнительные отрисовки, уже после того, как основной рендер произошел
         setStatus(props.status)
     }, [props.status])
 
@@ -42,7 +41,7 @@ const ProfileStatusWithHooks = (props) => {
                 <input
                        autoFocus={true}
                        onBlur={ deactivateEditMode }
-                       onChange={onStatusChange}
+                       onChange={ onStatusChange }
                        value={status}
                 />
             </div>
