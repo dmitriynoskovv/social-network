@@ -1,6 +1,7 @@
 import profileReducer, {addPostActionCreator, deletePost} from "./profil-reducer";
 import React from "react";
 
+
 let state = {
     postsData: [
         {id: 1, message: "Hi", likeCount: 12},
@@ -8,7 +9,7 @@ let state = {
         {id: 3, message: "Kolya", likeCount: 5},
         {id: 4, message: "Petya", likeCount: 7},
         {id: 5, message: "Dimoon", likeCount: 500}
-    ],
+    ]
 };
 
 it('length of posts should be incremented', () => {

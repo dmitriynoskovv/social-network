@@ -70,7 +70,7 @@ let AppContainer = compose(
 
 const MyPetJSApp = (props) => {
     return <HashRouter>
-        <Provider store={store}>
+        <Provider store={store}>         {/*Провайдер добавляет стор в контекст, что позволяет вызывать его из дочерних компонентов с помощью функции Connect, mapStateToProps, mapDispatchToProps*/}
             <AppContainer/>
         </Provider>
     </HashRouter>

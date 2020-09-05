@@ -2,24 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93bf0075-06da-4fe5-8f3d-414aa8f19399" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/types/types.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profil-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profil-reducer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profil-reducer.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profil-reducer.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/sidebar-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/sidebar-reducer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.tsx" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="my-first-react-progect" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1X56LcQgT5hpDuBvPEZZEolI7e2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -45,18 +53,6 @@
       <recent name="D:\react\my pet\my-first-react-progect\src\components\Users" />
       <recent name="D:\react\my pet\my-first-react-progect\src\redux" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Jest.ProfileStatus component.callback should be called">
     <configuration name="ProfileStatus component.callback should be called" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -116,10 +112,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
+        <item itemvalue="Jest.ProfileStatus component.callback should be called" />
         <item itemvalue="npm.deploy" />
         <item itemvalue="npm.predeploy" />
         <item itemvalue="npm.build" />
-        <item itemvalue="Jest.ProfileStatus component.callback should be called" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +167,25 @@
       <workItem from="1583775934762" duration="7125000" />
       <workItem from="1583868488221" duration="1500000" />
       <workItem from="1583955824910" duration="2690000" />
+      <workItem from="1584040238637" duration="3195000" />
+      <workItem from="1584185311903" duration="680000" />
+      <workItem from="1584288033314" duration="2273000" />
+      <workItem from="1584382358487" duration="651000" />
+      <workItem from="1584475994626" duration="600000" />
+      <workItem from="1587917040891" duration="94000" />
+      <workItem from="1587917201347" duration="14000" />
+      <workItem from="1588273881779" duration="107000" />
+      <workItem from="1589221747475" duration="1271000" />
+      <workItem from="1589711622254" duration="595000" />
+      <workItem from="1589715585469" duration="67000" />
+      <workItem from="1599057719230" duration="57000" />
+      <workItem from="1599127850157" duration="2116000" />
+      <workItem from="1599155372638" duration="6000" />
+      <workItem from="1599230751946" duration="9721000" />
+      <workItem from="1599247892507" duration="665000" />
+      <workItem from="1599301205483" duration="1684000" />
+      <workItem from="1599302949566" duration="6845000" />
+      <workItem from="1599322281369" duration="543000" />
     </task>
     <task id="LOCAL-00001" summary="local state&#10;High Order Component&#10;compose&#10;redux-form&#10;login, logout&#10;initialize &#10;reselect">
       <created>1580594549366</created>
@@ -207,29 +222,62 @@
       <option name="project" value="LOCAL" />
       <updated>1583528939879</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="captcha, updateProfile">
+      <created>1584040375444</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584040375444</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="local state&#10;High Order Component&#10;compose&#10;redux-form&#10;login, logout&#10;initialize &#10;reselect" />
     <MESSAGE value="hook&#10;useEffect" />
     <MESSAGE value="tdd&#10;tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="tdd&#10;tests" />
+    <MESSAGE value="captcha, updateProfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="captcha, updateProfile" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="939" height="224" key="GridCell.Tab.0.bottom" timestamp="1599309921960">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="939" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599309921960" />
+    <state width="939" height="224" key="GridCell.Tab.0.center" timestamp="1599309921960">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="939" height="224" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599309921960" />
+    <state width="939" height="224" key="GridCell.Tab.0.left" timestamp="1599309921959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="939" height="224" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599309921959" />
+    <state width="939" height="224" key="GridCell.Tab.0.right" timestamp="1599309921960">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="939" height="224" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599309921960" />
+    <state x="1043" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599246065819">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1043" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599246065819" />
+    <state x="1247" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599307989862">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1247" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599307989862" />
   </component>
 </project>
