@@ -42,7 +42,7 @@ class App extends Component {
                         <Route path='/profile/:userId?'
                                render={withSuspense(ProfileContainer)}/>
                         <Route path="/users"
-                               render={() => <UsersContainer/>}/>
+                               render={() => <UsersContainer pageTitle={"Нинзи"}/>}/>
                         <Route path="/login"
                                render={() => <LoginPage/>}/>
                         <Route path="*"

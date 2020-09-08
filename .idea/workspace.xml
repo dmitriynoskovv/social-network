@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93bf0075-06da-4fe5-8f3d-414aa8f19399" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/types/types.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/profil-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profil-reducer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/profil-reducer.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profil-reducer.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/sidebar-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/sidebar-reducer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Common/Paginator/Pagenator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/Paginator/Pagenator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profil-reducer.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profil-reducer.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/users-selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-selectors.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +184,13 @@
       <workItem from="1599247892507" duration="665000" />
       <workItem from="1599301205483" duration="1684000" />
       <workItem from="1599302949566" duration="6845000" />
-      <workItem from="1599322281369" duration="543000" />
+      <workItem from="1599322281369" duration="2467000" />
+      <workItem from="1599402604235" duration="2605000" />
+      <workItem from="1599422540500" duration="2244000" />
+      <workItem from="1599461333559" duration="801000" />
+      <workItem from="1599482452231" duration="3112000" />
+      <workItem from="1599510449539" duration="2102000" />
+      <workItem from="1599566733320" duration="706000" />
     </task>
     <task id="LOCAL-00001" summary="local state&#10;High Order Component&#10;compose&#10;redux-form&#10;login, logout&#10;initialize &#10;reselect">
       <created>1580594549366</created>
@@ -229,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584040375444</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="TS">
+      <created>1599323078518</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599323078518</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,9 +264,14 @@
     <MESSAGE value="hook&#10;useEffect" />
     <MESSAGE value="tdd&#10;tests" />
     <MESSAGE value="captcha, updateProfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="captcha, updateProfile" />
+    <MESSAGE value="TS" />
+    <option name="LAST_COMMIT_MESSAGE" value="TS" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="573" y="88" key="CommitChangelistDialog2" timestamp="1599323074886">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="573" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599323074886" />
     <state width="939" height="224" key="GridCell.Tab.0.bottom" timestamp="1599309921960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -271,6 +288,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="939" height="224" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599309921960" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599323090975">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599323090975" />
     <state x="1043" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599246065819">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
