@@ -3,7 +3,7 @@ import sidebarReducer from "./sidebar-reducer";
 import dialogsReducer from "./dialogs-reducer";
 
 
-let store;
+let oldStore;
 store = {
     _state: {
 
@@ -173,6 +173,12 @@ window.state = store;
 
 
 // useState принимает 2 параметра - состояние и функцию, которая будет управлять этим состоянием
+
+
+// typeof - тайпскриптовый метод который позволяет использовать тип,
+// который используется в выбранной константе. Например const INITIALIZED_SUCCESS = 'INITIALIZED_SUCCESS'
+
+//  type GetActionsTypes<T extends {[key: string]: (...args: any[]) => any}> = ReturnType<PropertiesType<T>>
 
 
 props.setUsers([

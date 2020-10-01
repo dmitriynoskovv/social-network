@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, {Component, ComponentType} from "react";
 import './App.css';
 import Nav from './components/Navbar/Navbar';
 import {HashRouter, Redirect, Route, Switch, withRouter} from "react-router-dom";
@@ -9,14 +9,25 @@ import {connect, Provider} from "react-redux";
 import {compose} from "redux";
 import {initializeApp} from "./redux/app-reducer";
 import Preloader from "./components/Common/Preloader/Preloader";
-import store from "./redux/redux-store";
 import {withSuspense} from "./hoc/withSuspense";
+import reduxStore, {AppStateType} from "./redux/redux-store";
 
 const DialogsContainer = React.lazy(() => import("./components/Dialogs/DialogsContainer"))      //позволяет подгружать страницы по мере необходимости, после обращения к ней пользователя
 const ProfileContainer = React.lazy(() => import("./components/Profile/ProfileContainer"))
 
+type MapPropsType = ReturnType<typeof mapStateToProps>
+type DispatchPropsType = {
+    initializeApp: () => void
+}
 
-class App extends Component {
+const SuspendedDialogs = withSuspense(DialogsContainer)
+const SuspendedProfile = withSuspense(ProfileContainer)
+
+class App extends Component <MapPropsType & DispatchPropsType> {
+
+    catchAllUnhandlesErrors = (e: PromiseRejectionEvent) => {
+        alert("Some error occured")
+    }
 
     componentDidMount() {
         this.props.initializeApp();
@@ -38,9 +49,9 @@ class App extends Component {
                                render={() => <Redirect to={"/profile"}/>}/>
 
                         <Route path='/dialogs'
-                               render={withSuspense(DialogsContainer)}/>
+                               render={() => <SuspendedDialogs /> }/>
                         <Route path='/profile/:userId?'
-                               render={withSuspense(ProfileContainer)}/>
+                               render={() => <SuspendedProfile /> }/>
                         <Route path="/users"
                                render={() => <UsersContainer pageTitle={"Нинзи"}/>}/>
                         <Route path="/login"
@@ -59,18 +70,18 @@ class App extends Component {
     }
 }
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = (state: AppStateType) => ({
     initialized: state.app.initialized
 })
 
 
-let AppContainer = compose(
+let AppContainer = compose<React.ComponentType>(
     withRouter,
     connect(mapStateToProps, {initializeApp}))(App);
 
-const MyPetJSApp = (props) => {
+const MyPetJSApp: React.FC = () => {
     return <HashRouter>
-        <Provider store={store}>         {/*Провайдер добавляет стор в контекст, что позволяет вызывать его из дочерних компонентов с помощью функции Connect, mapStateToProps, mapDispatchToProps*/}
+        <Provider store={reduxStore}>         {/*Провайдер добавляет стор в контекст, что позволяет вызывать его из дочерних компонентов с помощью функции Connect, mapStateToProps, mapDispatchToProps*/}
             <AppContainer/>
         </Provider>
     </HashRouter>

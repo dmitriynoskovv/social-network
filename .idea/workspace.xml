@@ -2,10 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93bf0075-06da-4fe5-8f3d-414aa8f19399" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/API/profile-api.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/API/security-api.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/API/users-api.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Common/FormsControls/FormsControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/FormsControls/FormsControls.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/validators/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/validators/validators.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/API/api.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/api.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/AddMessageForm/AddMessageForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/AddMessageForm/AddMessageForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsConteiner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsConteiner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hoc/withSuspense.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/withSuspense.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/dialogs-reducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profil-reducer.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profil-reducer.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profil-reducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profil-reducer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/old-Store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/objects-helpers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/objects-helpers.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/validators/validators.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/validators/validators.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +50,19 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="ts.external.directory.path" value="D:\react\my pet\my-first-react-progect\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\react\my pet\my-first-react-progect\src\components\Common\Paginator" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="D:\react\my pet\my-first-react-progect\src\API\api.tsx" />
+      <recent name="D:\react\my pet\my-first-react-progect\src\API\security-api.tsx" />
+      <recent name="D:\react\my pet\my-first-react-progect\src\API\auth-api.tsx" />
+      <recent name="D:\react\my pet\my-first-react-progect\src\API\profile-api.tsx" />
+      <recent name="D:\react\my pet\my-first-react-progect\src\API\users-api.tsx" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\react\my pet\my-first-react-progect\src\hoc" />
@@ -47,7 +71,7 @@
       <recent name="D:\react\my pet\my-first-react-progect\src\redux" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.ProfileStatus component.callback should be called">
+  <component name="RunManager" selected="npm.start">
     <configuration name="ProfileStatus component.callback should be called" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -186,7 +210,17 @@
       <workItem from="1599510449539" duration="2102000" />
       <workItem from="1599566733320" duration="706000" />
       <workItem from="1599581182696" duration="17016000" />
-      <workItem from="1599647929258" duration="12535000" />
+      <workItem from="1599647929258" duration="12667000" />
+      <workItem from="1599725120047" duration="588000" />
+      <workItem from="1599746692647" duration="6010000" />
+      <workItem from="1599840849977" duration="8570000" />
+      <workItem from="1599897720202" duration="594000" />
+      <workItem from="1599924570543" duration="901000" />
+      <workItem from="1599937311572" duration="3686000" />
+      <workItem from="1599988540091" duration="23963000" />
+      <workItem from="1600075908125" duration="624000" />
+      <workItem from="1600094081300" duration="585000" />
+      <workItem from="1601581128856" duration="1064000" />
     </task>
     <task id="LOCAL-00001" summary="local state&#10;High Order Component&#10;compose&#10;redux-form&#10;login, logout&#10;initialize &#10;reselect">
       <created>1580594549366</created>
@@ -251,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599598210627</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="TS api, enum">
+      <created>1599676627243</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599676627243</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,30 +320,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="TS api, enum" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="957" y="147" key="CommitChangelistDialog2" timestamp="1599598208655">
+    <state x="957" y="147" key="CommitChangelistDialog2" timestamp="1599676625106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="957" y="147" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599598208655" />
-    <state width="936" height="224" key="GridCell.Tab.0.bottom" timestamp="1599667863723">
+    <state x="957" y="147" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599676625106" />
+    <state width="936" height="224" key="GridCell.Tab.0.bottom" timestamp="1599676678214">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599667863723" />
-    <state width="936" height="224" key="GridCell.Tab.0.center" timestamp="1599667863723">
+    <state width="936" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599676678214" />
+    <state width="936" height="224" key="GridCell.Tab.0.center" timestamp="1599676678213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="224" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599667863723" />
-    <state width="936" height="224" key="GridCell.Tab.0.left" timestamp="1599667863722">
+    <state width="936" height="224" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599676678213" />
+    <state width="936" height="224" key="GridCell.Tab.0.left" timestamp="1599676678213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="224" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599667863722" />
-    <state width="936" height="224" key="GridCell.Tab.0.right" timestamp="1599667863723">
+    <state width="936" height="224" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599676678213" />
+    <state width="936" height="224" key="GridCell.Tab.0.right" timestamp="1599676678214">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="224" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599667863723" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599605170440">
+    <state width="936" height="224" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599676678214" />
+    <state x="922" y="187" key="SettingsEditor" timestamp="1600025764632">
+      <screen x="78" y="0" width="1842" height="1080" />
+    </state>
+    <state x="922" y="187" key="SettingsEditor/78.0.1842.1080@78.0.1842.1080" timestamp="1600025764632" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599676644523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599605170440" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599676644523" />
     <state x="1043" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599246065819">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

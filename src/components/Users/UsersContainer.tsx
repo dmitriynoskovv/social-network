@@ -4,8 +4,6 @@ import {
     unfollow,
     follow,
     requestUsers,
-    setCurrentPage,
-    toggleFollowingProgress
 } from "../../redux/users-reducer";
 import Users from "./Users";
 import Preloader from "../Common/Preloader/Preloader";
