@@ -1,7 +1,11 @@
-import React, {useEffect, useState} from 'react';
+import React, {ChangeEvent, useEffect, useState} from 'react';
 
+type PropsType = {
+    status: string
+    updateStatus: (status: string) => void
+}
 
-const ProfileStatusWithHooks = (props) => {
+const ProfileStatusWithHooks: React.FC<PropsType> = (props) => {
 
     /*let stateWithSetState = useState(true);
     let editMode = stateWithSetState[0];              // destructuring assignment
@@ -24,7 +28,7 @@ const ProfileStatusWithHooks = (props) => {
         props.updateStatus(status);
     }
 
-    const onStatusChange = (e) => {
+    const onStatusChange = (e: ChangeEvent<HTMLInputElement>) => {
         setStatus(e.currentTarget.value);
         };
 

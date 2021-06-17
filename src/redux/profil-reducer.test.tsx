@@ -1,6 +1,5 @@
 import profileReducer, {actions} from "./profil-reducer";
 import React from "react";
-import {PostType, ProfileType} from "../types/types";
 
 
 let state = {
@@ -13,7 +12,6 @@ let state = {
     ],
     profile: null,
     status: '',
-    newPostText: ''
 };
 
 it('length of posts should be incremented', () => {

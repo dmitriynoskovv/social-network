@@ -18,7 +18,7 @@ const Dialogs: React.FC<PropsType> = (props) => {
     let state = props.dialogsPage;     // state определяется, как локальный, и не требует вызова через пропсы
 
     let dialogsElements = state.dialogsData.map((dialog) => <DialogItem name={dialog.name} key={dialog.id} id={dialog.id}/>);
-    let messageElements = state.messagesData.map((m) => <Message message={m.message} id={m.id} key={m.id}/>);
+    let messageElements = state.messagesData.map((m) => <Message message={m.message} key={m.id}/>);
 
     let addNewMessage = (values: NewMessageFormValuesType) => {
         props.sendMessage(values.newMessageBody);

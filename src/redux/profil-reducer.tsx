@@ -12,8 +12,7 @@ let initialState = {
         {id: 5, message: "Dimoon", likeCount: 500}
     ] as Array<PostType>,
     profile: null as ProfileType | null,
-    status: '',
-    newPostText: ''
+    status: ''
 }
 
 const profileReducer = (state = initialState, action: ActionsType): InitialStateType => {
@@ -26,8 +25,7 @@ const profileReducer = (state = initialState, action: ActionsType): InitialState
             };
             return {
                 ...state,
-                postsData: [...state.postsData, newPost],
-                newPostText: "",
+                postsData: [...state.postsData, newPost]
             };    //делается копия объекта state для того, что бы была возможность его перерисовать и не вносились изменения в начальный стейт
             // (стейт который остается неизмененным
             // встроенной в функцию connect не перерисовывается (в connect входит функция subscribe(паттерн observer))).

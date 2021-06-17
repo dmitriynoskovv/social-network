@@ -1,13 +1,17 @@
-import React, {Component} from 'react';
+import React from 'react';
 import style from "./MyPosts.module.css";
 import Post from "./Post/Post";
-import {Field, reduxForm} from "redux-form";
-import {maxLengthCreator, required} from "../../../utils/validators/validators";
-import {Textarea} from "../../Common/FormsControls/FormsControls";
+import {PostType} from "../../../types/types";
+import AddPostForm, {AddPostFormValuesType} from "./AddPostForm/AddPost Form";
 
-const maxLength10 = maxLengthCreator(10);
+export type MapPropsType = {
+    postsData: Array<PostType>
+}
+export type DispatchPropsType = {
+    addPost: (newPostText: string) => void
+}
 
-let AddNewPostForm = (props) => {
+/*const AddNewPostForm: React.FC<InjectedFormProps<LoginFormValuesType, PropsType> & PropsType> = (props) => {
     return (<form onSubmit={props.handleSubmit}>
             <div>
                 <Field name={"newPostText"}
@@ -21,35 +25,32 @@ let AddNewPostForm = (props) => {
     )
 }
 
-AddNewPostForm = reduxForm({form: "ProfileAddNewPostForm"})(AddNewPostForm);
+AddNewPostFormRedux = reduxForm({form: "ProfileAddNewPostForm"})(AddNewPostForm);*/
 
-const MyPosts = React.memo(props => {
+const MyPosts: React.FC<MapPropsType & DispatchPropsType> = props => {
 
-    let postsElements = props.postsData.map((p) =>
-        <Post key={p.id} message={p.message} likesCount={p.likesCount}/>);
+    let postsElements =
+        [...props.postsData]
+        .reverse()
+        .map(p => <Post key={p.id} message={p.message} likeCount={p.likeCount}/>);
 
-//    let newPostElement = React.createRef();     // ?????
 
-    let onAddPost = (values) => {
+    let onAddPost = (values: AddPostFormValuesType) => {
         props.addPost(values.newPostText);
-    };
-
-//    let onPostChange = () => {
-//        let text = newPostElement.current.value;        // сохраняет в переменной text вводимый текст
-//        props.updateNewPostText(text);
-//    };
+    }
 
     return (
         <div className={style.postsBlock}>
             <h3>My posts</h3>
-            <AddNewPostForm onSubmit={onAddPost}/>
+            <AddPostForm onSubmit={onAddPost}/>
             <div className={style.posts}>
                 {postsElements}
             </div>
         </div>
     );
 
-});
+}
 
+const MyPostsMemorized = React.memo(MyPosts);
 
-export default MyPosts;
+export default MyPostsMemorized;

@@ -1,360 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93bf0075-06da-4fe5-8f3d-414aa8f19399" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/API/profile-api.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/API/security-api.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/API/users-api.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/api.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/api.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/AddMessageForm/AddMessageForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/AddMessageForm/AddMessageForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsConteiner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsConteiner.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hoc/withSuspense.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/withSuspense.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/dialogs-reducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/profil-reducer.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profil-reducer.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/profil-reducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profil-reducer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/old-Store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/objects-helpers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/objects-helpers.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/validators/validators.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/validators/validators.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="bf84398c-8928-4249-ae09-921ec31ad26c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectId" id="1X56LcQgT5hpDuBvPEZZEolI7e2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1taUEEyyKfi5zbsJ10XFC41zdKW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/hoc" />
     <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.standard" value="" />
-    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
-    <property name="ts.external.directory.path" value="D:\react\my pet\my-first-react-progect\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="E:\react\my-first-react-progect-11\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\react\my pet\my-first-react-progect\src\components\Common\Paginator" />
-    </key>
-    <key name="es6.move.members.recent.items">
-      <recent name="D:\react\my pet\my-first-react-progect\src\API\api.tsx" />
-      <recent name="D:\react\my pet\my-first-react-progect\src\API\security-api.tsx" />
-      <recent name="D:\react\my pet\my-first-react-progect\src\API\auth-api.tsx" />
-      <recent name="D:\react\my pet\my-first-react-progect\src\API\profile-api.tsx" />
-      <recent name="D:\react\my pet\my-first-react-progect\src\API\users-api.tsx" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\react\my pet\my-first-react-progect\src\hoc" />
-      <recent name="D:\react\my pet\my-first-react-progect\src\components\Profile\ProfileInfo" />
-      <recent name="D:\react\my pet\my-first-react-progect\src\components\Users" />
-      <recent name="D:\react\my pet\my-first-react-progect\src\redux" />
-    </key>
-  </component>
-  <component name="RunManager" selected="npm.start">
-    <configuration name="ProfileStatus component.callback should be called" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.jsx" />
-      <test-names>
-        <test-name value="ProfileStatus component" />
-        <test-name value="callback should be called" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="deploy" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="predeploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="predeploy" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.start" />
-        <item itemvalue="Jest.ProfileStatus component.callback should be called" />
-        <item itemvalue="npm.deploy" />
-        <item itemvalue="npm.predeploy" />
-        <item itemvalue="npm.build" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="93bf0075-06da-4fe5-8f3d-414aa8f19399" name="Default Changelist" comment="" />
-      <created>1580323553985</created>
+      <changelist id="bf84398c-8928-4249-ae09-921ec31ad26c" name="Default Changelist" comment="" />
+      <created>1623006581193</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1580323553985</updated>
-      <workItem from="1580323558548" duration="4432000" />
-      <workItem from="1580330345714" duration="56000" />
-      <workItem from="1580499222929" duration="3912000" />
-      <workItem from="1580577421768" duration="5337000" />
-      <workItem from="1580594342139" duration="252000" />
-      <workItem from="1580664397376" duration="4366000" />
-      <workItem from="1580754333951" duration="1225000" />
-      <workItem from="1580842208139" duration="3237000" />
-      <workItem from="1580929562080" duration="2105000" />
-      <workItem from="1581013168812" duration="5942000" />
-      <workItem from="1581182532746" duration="4304000" />
-      <workItem from="1581230893585" duration="19573000" />
-      <workItem from="1581359118383" duration="3461000" />
-      <workItem from="1581449744214" duration="630000" />
-      <workItem from="1581620819694" duration="3139000" />
-      <workItem from="1581789467705" duration="9321000" />
-      <workItem from="1581834539278" duration="17190000" />
-      <workItem from="1581873251063" duration="6159000" />
-      <workItem from="1582051338085" duration="2971000" />
-      <workItem from="1582135711865" duration="597000" />
-      <workItem from="1582212929528" duration="2804000" />
-      <workItem from="1582278496799" duration="4950000" />
-      <workItem from="1582568223197" duration="4275000" />
-      <workItem from="1582656051368" duration="2761000" />
-      <workItem from="1582829261940" duration="335000" />
-      <workItem from="1582915873974" duration="2820000" />
-      <workItem from="1582992628121" duration="9270000" />
-      <workItem from="1583051857354" duration="598000" />
-      <workItem from="1583069523049" duration="8349000" />
-      <workItem from="1583169662373" duration="11533000" />
-      <workItem from="1583252238995" duration="593000" />
-      <workItem from="1583350294031" duration="2457000" />
-      <workItem from="1583435524681" duration="2260000" />
-      <workItem from="1583508193717" duration="9036000" />
-      <workItem from="1583596631089" duration="2558000" />
-      <workItem from="1583775934762" duration="7125000" />
-      <workItem from="1583868488221" duration="1500000" />
-      <workItem from="1583955824910" duration="2690000" />
-      <workItem from="1584040238637" duration="3195000" />
-      <workItem from="1584185311903" duration="680000" />
-      <workItem from="1584288033314" duration="2273000" />
-      <workItem from="1584382358487" duration="651000" />
-      <workItem from="1584475994626" duration="600000" />
-      <workItem from="1587917040891" duration="94000" />
-      <workItem from="1587917201347" duration="14000" />
-      <workItem from="1588273881779" duration="107000" />
-      <workItem from="1589221747475" duration="1271000" />
-      <workItem from="1589711622254" duration="595000" />
-      <workItem from="1589715585469" duration="67000" />
-      <workItem from="1599057719230" duration="57000" />
-      <workItem from="1599127850157" duration="2116000" />
-      <workItem from="1599155372638" duration="6000" />
-      <workItem from="1599230751946" duration="9721000" />
-      <workItem from="1599247892507" duration="665000" />
-      <workItem from="1599301205483" duration="1684000" />
-      <workItem from="1599302949566" duration="6845000" />
-      <workItem from="1599322281369" duration="2467000" />
-      <workItem from="1599402604235" duration="2605000" />
-      <workItem from="1599422540500" duration="2244000" />
-      <workItem from="1599461333559" duration="801000" />
-      <workItem from="1599482452231" duration="3112000" />
-      <workItem from="1599510449539" duration="2102000" />
-      <workItem from="1599566733320" duration="706000" />
-      <workItem from="1599581182696" duration="17016000" />
-      <workItem from="1599647929258" duration="12667000" />
-      <workItem from="1599725120047" duration="588000" />
-      <workItem from="1599746692647" duration="6010000" />
-      <workItem from="1599840849977" duration="8570000" />
-      <workItem from="1599897720202" duration="594000" />
-      <workItem from="1599924570543" duration="901000" />
-      <workItem from="1599937311572" duration="3686000" />
-      <workItem from="1599988540091" duration="23963000" />
-      <workItem from="1600075908125" duration="624000" />
-      <workItem from="1600094081300" duration="585000" />
-      <workItem from="1601581128856" duration="1064000" />
+      <updated>1623006581193</updated>
+      <workItem from="1623006582510" duration="1440000" />
+      <workItem from="1623756583756" duration="9247000" />
+      <workItem from="1623770974167" duration="4253000" />
+      <workItem from="1623776195700" duration="1328000" />
+      <workItem from="1623777543740" duration="124000" />
+      <workItem from="1623787324382" duration="6344000" />
+      <workItem from="1623853294027" duration="5919000" />
+      <workItem from="1623874026753" duration="695000" />
+      <workItem from="1623874783831" duration="2294000" />
+      <workItem from="1623936812678" duration="520000" />
+      <workItem from="1623937508335" duration="586000" />
+      <workItem from="1623941018119" duration="110000" />
     </task>
-    <task id="LOCAL-00001" summary="local state&#10;High Order Component&#10;compose&#10;redux-form&#10;login, logout&#10;initialize &#10;reselect">
-      <created>1580594549366</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1580594549366</updated>
-    </task>
-    <task id="LOCAL-00002" summary="hook&#10;useEffect">
-      <created>1581241393285</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1581241393285</updated>
-    </task>
-    <task id="LOCAL-00003" summary="tdd&#10;tests">
-      <created>1581279626488</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1581279626488</updated>
-    </task>
-    <task id="LOCAL-00004" summary="tdd&#10;tests">
-      <created>1583438582129</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1583438582129</updated>
-    </task>
-    <task id="LOCAL-00005" summary="tdd&#10;tests">
-      <created>1583528939879</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1583528939879</updated>
-    </task>
-    <task id="LOCAL-00006" summary="captcha, updateProfile">
-      <created>1584040375444</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1584040375444</updated>
-    </task>
-    <task id="LOCAL-00007" summary="TS">
-      <created>1599323078518</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1599323078518</updated>
-    </task>
-    <task id="LOCAL-00008" summary="TS">
-      <created>1599581378475</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1599581378475</updated>
-    </task>
-    <task id="LOCAL-00009" summary="TS api, enum">
-      <created>1599598210627</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1599598210627</updated>
-    </task>
-    <task id="LOCAL-00010" summary="TS api, enum">
-      <created>1599676627243</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1599676627243</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="local state&#10;High Order Component&#10;compose&#10;redux-form&#10;login, logout&#10;initialize &#10;reselect" />
-    <MESSAGE value="hook&#10;useEffect" />
-    <MESSAGE value="tdd&#10;tests" />
-    <MESSAGE value="captcha, updateProfile" />
-    <MESSAGE value="TS" />
-    <MESSAGE value="TS api, enum" />
-    <option name="LAST_COMMIT_MESSAGE" value="TS api, enum" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="957" y="147" key="CommitChangelistDialog2" timestamp="1599676625106">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="281" y="367" key="#Notifications" timestamp="1623007405840">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="957" y="147" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599676625106" />
-    <state width="936" height="224" key="GridCell.Tab.0.bottom" timestamp="1599676678214">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="281" y="367" key="#Notifications/62.0.1858.1080@62.0.1858.1080" timestamp="1623007405840" />
+    <state x="445" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623938068944">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="936" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599676678214" />
-    <state width="936" height="224" key="GridCell.Tab.0.center" timestamp="1599676678213">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="445" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1623938068944" />
+    <state width="905" height="295" key="GridCell.Tab.0.bottom" timestamp="1623881611537">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="936" height="224" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599676678213" />
-    <state width="936" height="224" key="GridCell.Tab.0.left" timestamp="1599676678213">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="905" height="295" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1623881611537" />
+    <state width="905" height="295" key="GridCell.Tab.0.center" timestamp="1623881611537">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="936" height="224" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599676678213" />
-    <state width="936" height="224" key="GridCell.Tab.0.right" timestamp="1599676678214">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="905" height="295" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1623881611537" />
+    <state width="905" height="295" key="GridCell.Tab.0.left" timestamp="1623881611537">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="936" height="224" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599676678214" />
-    <state x="922" y="187" key="SettingsEditor" timestamp="1600025764632">
-      <screen x="78" y="0" width="1842" height="1080" />
+    <state width="905" height="295" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1623881611537" />
+    <state width="905" height="295" key="GridCell.Tab.0.right" timestamp="1623881611537">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="922" y="187" key="SettingsEditor/78.0.1842.1080@78.0.1842.1080" timestamp="1600025764632" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599676644523">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="905" height="295" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1623881611537" />
+    <state x="157" y="154" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1623793957387">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599676644523" />
-    <state x="1043" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599246065819">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="157" y="154" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/62.0.1858.1080@62.0.1858.1080" timestamp="1623793957387" />
+    <state x="234" y="143" width="585" height="801" key="find.popup" timestamp="1623859052369">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="1043" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599246065819" />
-    <state x="1247" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599307989862">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="234" y="143" width="585" height="801" key="find.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1623859052369" />
+    <state x="647" y="250" key="run.anything.popup" timestamp="1623855811169">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="1247" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599307989862" />
+    <state x="647" y="250" key="run.anything.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1623855811169" />
   </component>
 </project>

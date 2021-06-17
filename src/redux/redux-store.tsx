@@ -26,7 +26,7 @@ export type InferActionsTypes<T> = T extends {[key: string]: (...arg: any[]) => 
 
 // AT - actions type дженерик. Для каждого типа редюсоров будет приходить свой тип.
 // R - возвращаемое значение (Promise)
-export type BaseThunkType <AT extends Action, R = Promise<void>> = ThunkAction<R, AppStateType, unknown, AT>
+export type BaseThunkType <A extends Action = Action, R = Promise<void>> = ThunkAction <R, AppStateType, unknown, A>
 
 // @ts-ignore
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
