@@ -17,8 +17,8 @@ export const instence = axios.create({
 });
 
 export enum ResultCodeEnum {       // Специальный тип при возврате ошибки числом с сервера превращает его в слово, для облегчения дебага
-    Success,
-    Error,
+    Success = 0,
+    Error = 1,
 }
 
 export enum ResultCodeForCaptchaEnum {
