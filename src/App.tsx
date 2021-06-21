@@ -1,10 +1,10 @@
-import React, {Component, ComponentType} from "react";
+import React, {Component} from "react";
 import './App.css';
 import Nav from './components/Navbar/Navbar';
 import {HashRouter, Redirect, Route, Switch, withRouter} from "react-router-dom";
-import UsersContainer from "./components/Users/UsersContainer";
+import {UsersPage} from "./components/Users/UsersContainer";
 import HeaderContainer from "./components/Header/HeaderContainer";
-import LoginPage from "./components/Login/login"            // Если импорт в файле производится по дефолту, импортируемой функции можно задать произвольное имя
+import {LoginPage} from "./components/Login/loginPage"            // Если импорт в файле производится по дефолту, импортируемой функции можно задать произвольное имя
 import {connect, Provider} from "react-redux";
 import {compose} from "redux";
 import {initializeApp} from "./redux/app-reducer";
@@ -26,7 +26,7 @@ const SuspendedProfile = withSuspense(ProfileContainer)
 class App extends Component <MapPropsType & DispatchPropsType> {
 
     catchAllUnhandlesErrors = (e: PromiseRejectionEvent) => {
-        alert("Some error occured")
+        alert("Some error occurred")
     }
 
     componentDidMount() {
@@ -53,7 +53,7 @@ class App extends Component <MapPropsType & DispatchPropsType> {
                         <Route path='/profile/:userId?'
                                render={() => <SuspendedProfile /> }/>
                         <Route path="/users"
-                               render={() => <UsersContainer pageTitle={"Нинзи"}/>}/>
+                               render={() => <UsersPage pageTitle={"Нинзи"}/>}/>
                         <Route path="/login"
                                render={() => <LoginPage/>}/>
                         <Route path="*"

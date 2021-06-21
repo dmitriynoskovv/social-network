@@ -1,6 +1,6 @@
 import {updateObjectInArray} from "../utils/objects-helpers";
 import {UserType} from "../types/types";
-import {AppStateType, BaseThunkType, InferActionsTypes} from "./redux-store";
+import {BaseThunkType, InferActionsTypes} from "./redux-store";
 import {Dispatch} from "redux";
 import {usersAPI} from "../API/users-api";
 import {APIResponseType} from "../API/api";
@@ -87,7 +87,7 @@ export const actions = {
 //thunk
 
 export const requestUsers = (page: number, pageSize: number, filter: FilterType): ThunkType => {        //getUsersThunkCreator
-    return async (dispatch, getState: () => AppStateType) => {      // Типизация Dispatch берется из библиотеки редакс. Данная типизация аналогична той, которая оформлена в ThunkType ( официальный способ)
+    return async (dispatch) => {      // Типизация Dispatch берется из библиотеки редакс. Данная типизация аналогична той, которая оформлена в ThunkType ( официальный способ)
         dispatch(actions.toggleIsFetching(true));
         dispatch(actions.setCurrentPage(page))
         dispatch(actions.setFilter(filter))

@@ -4,7 +4,7 @@ import {createField, GetStringKeys, Input} from "../Common/FormsControls/FormsCo
 import {required} from "../../utils/validators/validators";
 import {login} from "../../redux/auth-reducer";
 import {Redirect} from "react-router-dom";
-import {connect} from "react-redux";
+import { useDispatch, useSelector} from "react-redux";
 import s from "../../components/Common/FormsControls/FormControls.module.css"
 import {AppStateType} from "../../redux/redux-store";
 
@@ -36,40 +36,27 @@ const LoginForm: React.FC<InjectedFormProps<LoginFormValuesType, LoginFormOwnPro
 
 const LoginReduxForm = reduxForm<LoginFormValuesType, LoginFormOwnProps>({form: 'login'})(LoginForm);        // Создает новую форму в стейте с названием login
 
-type MapStatePropsType = {
-    captchaUrl: string | null
-    isAuth: boolean
-}
-
-type MapDispatchPropsType = {
-    login: (email: string, password: string, rememberMe: boolean, captcha: string) => void
-}
-
 export type LoginFormValuesType = {
     email: string
     password: string
     rememberMe: boolean
     captcha: string
 }
-export type LoginFormValuesTypeKeys = GetStringKeys< LoginFormValuesType>   //  kayof - автоматически подставляет ключи взятые из LoginFormValuesType
-                                                                              // Extract - достает только те ключи, которые соотносятся с типом "string"
-const Login: React.FC<MapStatePropsType & MapDispatchPropsType> = (props) => {
+export type LoginFormValuesTypeKeys = GetStringKeys< LoginFormValuesType>
+
+export const LoginPage: React.FC = () => {
+    const captchaUrl = useSelector((state: AppStateType) => state.auth.captchaUrl)
+    const isAuth = useSelector((state: AppStateType) => state.auth.isAuth)
+    const dispatch = useDispatch()
+
     const onSubmit = (formData: LoginFormValuesType) => {
-        props.login(formData.email, formData.password, formData.rememberMe, formData.captcha)
+        dispatch(login(formData.email, formData.password, formData.rememberMe, formData.captcha))
     }
-    if (props.isAuth) {
+    if (isAuth) {
         return <Redirect to={"/profile"}/>
     }
     return <div>
         <h1>Login</h1>
-        <LoginReduxForm onSubmit={onSubmit} captchaUrl={props.captchaUrl}/>
+        <LoginReduxForm onSubmit={onSubmit} captchaUrl={captchaUrl}/>
     </div>
 }
-
-const mapStateToProps = (state: AppStateType): MapStatePropsType => ({
-    captchaUrl: state.auth.captchaUrl,
-    isAuth: state.auth.isAuth
-})
-
-export default connect(mapStateToProps, {login})(Login);
-
