@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import Paginator from "../Common/Paginator/Pagenator";
 import User from "./User";
-import {FilterType, requestUsers} from "../../redux/users-reducer";
+import {FilterType, follow, requestUsers, unfollow} from "../../redux/users-reducer";
 import {MemorizedUsersSearchForm} from "./UsersSearchForm";
 import {useDispatch, useSelector} from "react-redux";
 import {
@@ -63,7 +63,7 @@ export const Users: React.FC<PropsType> = () => {
 
 
         history.push({
-            pathname: '/users',
+            pathname: '/developers',
             search: queryString.stringify(query)
         })
     }, [filter, currentPage])
@@ -76,10 +76,10 @@ export const Users: React.FC<PropsType> = () => {
         dispatch(requestUsers(pageNumber, pageSize, filter))
     }
 
-    const unfollow = (userId: number) => {
+    const unfollowUser = (userId: number) => {
         dispatch(unfollow(userId))
     }
-    const follow = (userId: number) => {
+    const followUser = (userId: number) => {
         dispatch(follow(userId))
     }
 
@@ -96,8 +96,8 @@ export const Users: React.FC<PropsType> = () => {
                 users.map(u => <User user={u}
                                      key={u.id}
                                      followingInProgress={followingInProgress}
-                                     unfollow={unfollow}
-                                     follow={follow}
+                                     unfollow={unfollowUser}
+                                     follow={followUser}
                 />)
             }
         </div>
