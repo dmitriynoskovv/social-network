@@ -6,7 +6,8 @@ import usersReducer from "./users-reducer";
 import authReducer from "./auth-reducer";
 import thunkMiddleware, {ThunkAction} from "redux-thunk";
 import { reducer as formReducer } from "redux-form";
-import appReducer from "./app-reducer";        // Импорт специальногй редюсор формы из библиотеки форм. Добавляется единожды в основной стор.
+import appReducer from "./app-reducer";
+import chatReducer from "./chat-reducer";        // Импорт специальногй редюсор формы из библиотеки форм. Добавляется единожды в основной стор.
 
 let rootReducer = combineReducers({
     profilePage: profileReducer,
@@ -15,7 +16,8 @@ let rootReducer = combineReducers({
     usersPage: usersReducer,
     auth: authReducer,
     form: formReducer,
-    app: appReducer
+    app: appReducer,
+    chat: chatReducer
 });
 
 type RootReducerType = typeof rootReducer; // (globalstate: GLOBALSTATE) => AppStateType

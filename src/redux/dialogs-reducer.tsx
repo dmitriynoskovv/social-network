@@ -45,10 +45,8 @@ type ActionsType = InferActionsTypes<typeof actions>
 type DialogType = {
     id: number
     name: string
-
 }
 type MessagesType = {
     id: number
     message: string
-
 }
